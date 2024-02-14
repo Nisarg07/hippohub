@@ -1,10 +1,9 @@
 import Link from "next/link";
-import MaxWidthWrapper from "./MaxWidthWrapper";
+import Cart from "./Cart";
 import { Icons } from "./Icons";
+import MaxWidthWrapper from "./MaxWidthWrapper";
 import NavItems from "./NavItems";
 import { buttonVariants } from "./ui/button";
-import { space } from "postcss/lib/list";
-import Cart from "./Cart";
 
 const Navbar = () => {
   const user = null;
